@@ -54,6 +54,10 @@
     display: grid;
 }
 
+.img {
+    background-image: url("../img/Logo-Disisk.png");
+}
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -715,6 +719,18 @@
 
 /*** Service End ***/
 
+.feature-content a:hover {
+    cursor: default;
+    color: black;
+}
+
+.feature-content a {
+    color: black;
+}
+
+.feature-content p:hover {
+    cursor: default;
+}
 
 /*** Features Start ***/
 .feature .feature-img {

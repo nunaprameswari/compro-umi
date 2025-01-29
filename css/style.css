@@ -15,8 +15,7 @@
     height: 100%;
     position: absolute;
     z-index: 10;
-    background-color: rgba(0, 0, 0, .9);
-    /* opacity: 85%; */
+    background-color: rgba(0, 0, 0, .85);
     display: grid;
     place-items: center;
     top: 0;
@@ -36,12 +35,12 @@
 }
 
 .button-box {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     margin-top: 30px;
-    background-color: rgb(129, 18, 83);
+    background-color: rgb(201, 23, 127);
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    border-radius: 15px;
 }
 
 .button-box:hover {
@@ -693,6 +692,7 @@
 /*** Service Start ***/
 .service .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+    min-height: 100%;
 }
 
 .service .service-item,
@@ -1048,3 +1048,11 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+.line-clamp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
